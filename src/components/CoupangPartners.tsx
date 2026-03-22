@@ -87,6 +87,8 @@ export default function CoupangPartners({ iframeSrc }: CoupangPartnersProps) {
                 <span>당신을 위한 추천 상품</span>
             </div>
             <div className={styles.bannerWrapper}>
+                {/* 광고자리 */}
+                {/* 
                 {selected.type === 'DYNAMIC' && iframeSrc ? (
                     <iframe
                         src={iframeSrc}
@@ -115,6 +117,7 @@ export default function CoupangPartners({ iframeSrc }: CoupangPartnersProps) {
                         <div className={styles.buyButton}>보러가기</div>
                     </a>
                 )}
+                */}
             </div>
             <p className={styles.disclaimer}>
                 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.

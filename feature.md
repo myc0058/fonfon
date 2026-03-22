@@ -26,6 +26,11 @@
 - [x] **유형 기반(MBTI style) 계산** - **테스트 완료 (`src/lib/__tests__/quiz-logic.test.ts`)**
 
 
+### 1.5. 공통 UI
+- [x] **푸터 (Footer) - 비즈니스 문의, 개인정보 처리 방침 링크** - **테스트 완료 (`src/components/__tests__/Footer.test.tsx`)**
+- [x] **개인정보 처리 방침 페이지 (`/privacy`)** - **테스트 완료 (`src/app/privacy/__tests__/PrivacyPolicy.test.tsx`)**
+- [x] **광고 자리 주석 처리 (Google AdSense, Coupang Partners)** - **구현 완료 (주석 처리 및 "광고자리" 문구 추가)**
+
 ## 2. 관리자(Admin) 기능 (`/admin`)
 ### 2.1. 퀴즈 관리
 - [x] **퀴즈 생성** - **테스트 완료 (`src/actions/__tests__/quiz.test.ts`)**

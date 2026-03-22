@@ -8,9 +8,10 @@ interface SideAdProps {
 }
 
 export default function SideAd({ position, slotId }: SideAdProps) {
+    /* 광고자리 */
+    /*
     return (
         <div className={`${styles.sideAdContainer} ${styles[position]}`}>
-            {/* 구글 애드센스 광고 영역 */}
             <div className={styles.placeholder}>
                 {slotId ? (
                     <ins className="adsbygoogle"
@@ -28,4 +29,6 @@ export default function SideAd({ position, slotId }: SideAdProps) {
             </div>
         </div>
     )
+    */
+    return null;
 }

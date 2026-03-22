@@ -41,6 +41,7 @@ import MetaPixel from "@/components/MetaPixel";
 import SideAd from "@/components/SideAd";
 import GoogleAdSense from "@/components/GoogleAdSense";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { ToastProvider } from "@/components/Toast";
 
 export default function RootLayout({
@@ -53,9 +54,10 @@ export default function RootLayout({
       <body className={outfit.className}>
         <GoogleAnalytics />
         <MetaPixel />
-        <SideAd position="left" />
-        <SideAd position="right" />
-        <GoogleAdSense />
+        {/* 광고자리 */}
+        {/* <SideAd position="left" /> */}
+        {/* <SideAd position="right" /> */}
+        {/* <GoogleAdSense /> */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -76,7 +78,10 @@ export default function RootLayout({
         <ToastProvider>
           <div className="app-wrapper">
             <Header />
-            {children}
+            <main style={{ flex: 1 }}>
+              {children}
+            </main>
+            <Footer />
           </div>
         </ToastProvider>
       </body>

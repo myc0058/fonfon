@@ -1,4 +1,6 @@
 export default function GoogleAdSense() {
+    /* 광고자리 */
+    /*
     return (
         <script
             async
@@ -6,4 +8,6 @@ export default function GoogleAdSense() {
             crossOrigin="anonymous"
         />
     );
+    */
+    return null;
 }

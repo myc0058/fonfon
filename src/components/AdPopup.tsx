@@ -48,6 +48,8 @@ export default function AdPopup({ isOpen, onClose }: AdPopupProps) {
                 </div>
 
                 <div className={styles.adWrapper}>
+                    {/* 광고자리 */}
+                    {/* 
                     {adType === 'GOOGLE' ? (
                         <div style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
                             <p>구글 애드센스</p>
@@ -62,6 +64,7 @@ export default function AdPopup({ isOpen, onClose }: AdPopupProps) {
                     ) : (
                         <CoupangPartners iframeSrc={coupangIframeSrc} />
                     )}
+                    */}
                 </div>
 
                 <div className={styles.footer}>

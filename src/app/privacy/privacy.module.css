@@ -1,0 +1,133 @@
+.container {
+    padding: 2rem 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f2f5;
+}
+
+.backLink {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: #a18cd1;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.content {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.intro {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-bottom: 2.5rem;
+}
+
+.section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid #a18cd1;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.2rem;
+    position: relative;
+    color: #555;
+}
+
+.section li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #a18cd1;
+    font-weight: bold;
+}
+
+.section a {
+    color: #a18cd1;
+    text-decoration: underline;
+}
+
+.section a:hover {
+    color: #fbc2eb;
+}
+
+.contact {
+    font-weight: 500;
+    color: #1a1a1a;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.footerInfo {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .section h2 {
+        font-size: 1.15rem;
+    }
+}

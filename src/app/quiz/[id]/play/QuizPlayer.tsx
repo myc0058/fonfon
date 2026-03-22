@@ -278,7 +278,7 @@ export default function QuizPlayer({ quiz }: { quiz: Quiz }) {
                         ))}
                     </div>
 
-                    {/* 구글 애드센스 - 보기 하단 (숨김 처리) */}
+                    {/* 광고자리 - 구글 애드센스 (보기 하단) */}
                     {/* 
                     <div style={{ marginTop: '2rem', minHeight: '100px', background: 'rgba(255,255,255,0.03)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.8rem', color: '#666' }}>
                         <div style={{ textAlign: 'center', width: '100%' }}>
